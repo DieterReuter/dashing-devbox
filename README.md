@@ -24,7 +24,7 @@ On your host machine just start your web browser
 open http://127.0.0.1:3030/
 ```
 And you'll see the new sample dashboard up and running.
-
+![Screenshot-Dashboard](/images/screenshot-dashboard.jpg)
 
 # Licensing
 Copyright (c) 2014 Dieter Reuter
