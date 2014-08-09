@@ -18,7 +18,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provider "virtualbox" do |v|
     v.gui = true
     v.customize ["modifyvm", :id, "--memory", "512"]
-    vb.customize ["modifyvm", :id, "--cpus", "1"]
+    v.customize ["modifyvm", :id, "--cpus", "1"]
   end
 
   config.vm.provider "vmware_desktop" do |v|
