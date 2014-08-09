@@ -8,7 +8,7 @@ This devbox is tested on `Mac OS X 10.9.4` with `VirtualBox 4.3.14` and `VMware 
 ## Create a basic Dashboard with `Dashing`
 ```bash
 vagrant up
-vagrant shh
+vagrant ssh
 cd /opt/application
 dashing new dashboard
 cd dashboard
