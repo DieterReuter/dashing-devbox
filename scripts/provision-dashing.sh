@@ -8,6 +8,7 @@ echo "gem: --no-document --no-rdoc --no-ri" | tee ~/.gemrc
 echo "gem: --no-document --no-rdoc --no-ri" | sudo -u vagrant tee /home/vagrant/.gemrc
 
 # install Dashing deps
+export DEBIAN_FRONTEND=noninteractive
 sudo apt-get -yy update
 sudo apt-get -yy install ruby ruby-dev gem
 sudo apt-get -yy install bundler g++ make
