@@ -14,6 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # specific settings for Dashing
   config.vm.network "forwarded_port", guest: 3030, host: 3030
   config.vm.network "forwarded_port", guest: 8081, host: 8081
+  config.vm.network "forwarded_port", guest: 9001, host: 9001
   config.vm.synced_folder "./src/", "/opt/application"
 
   config.vm.provider "virtualbox" do |v|
